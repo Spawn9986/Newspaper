@@ -1,0 +1,40 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.newspaper {
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "row-1 row-1 row-1"
+    "row-2 row-2 row-2";
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 5fr 5fr;
+  border: 2px solid black;
+  margin: 100px;
+  background-color: orange;
+}
+
+.header {
+  grid-area: header;
+  background-color: green;
+  padding: 5px;
+}
+
+.row-1 {
+  grid-area: row-1;
+  background-color: red;
+}
+
+.row-2 {
+  grid-area: row-2;
+  background-color: blue;
+}

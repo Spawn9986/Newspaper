@@ -1,0 +1,86 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+.header {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.newspaper {
+  display: grid;
+  grid-template-areas:
+    "nav nav nav"
+    "row-1 row-1 row-1"
+    "row-2 row-2 row-2";
+  grid-template-columns: 3fr 5fr 3fr;
+  grid-template-rows: 1fr 5fr 5fr;
+  margin: 10px 100px;
+  flex-wrap: ;
+}
+
+.newspaper-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+  font-family: "Snell Roundhand";
+  margin: 60px 0;
+}
+
+.nav {
+  grid-area: nav;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 5px;
+  list-style-type: none;
+  font-family: "Futura";
+  font-size: 36px;
+  color: #666666;
+  border: 3px solid black;
+  border-bottom: none;
+}
+
+.row-1 {
+  grid-area: row-1;
+  display: flex;
+  border: 3px solid black;
+  border-bottom: none;
+}
+
+.itm1-rw1 {
+  border-right: 3px solid black;
+}
+
+.itm2-rw1 {
+  border-right: 3px solid black;
+}
+
+.itm3-rw1 {
+}
+
+.row-2 {
+  grid-area: row-2;
+  display: flex;
+  border: 3px solid black;
+}
+
+.itm1-rw2 {
+  border-right: 3px solid black;
+}
+
+.itm2-rw2 {
+}

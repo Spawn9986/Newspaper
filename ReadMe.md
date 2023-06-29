@@ -6,6 +6,10 @@
 
 <p id="description">Create a page that shares the look of a printed newspaper.</p>
 
+<h2>Project Screenshots:</h2>
+
+<img src="https://github.com/Spawn9986/Newspaper/blob/main/Project%20Screenshots/CSS%20Flexbox%20Scrrenshot.png" alt="Project Screenshot" width="973" height="463/">
+
 <h2>💻 Built with</h2>
 
 Technologies used in the project:

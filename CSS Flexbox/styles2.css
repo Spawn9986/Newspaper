@@ -6,15 +6,34 @@ body {
   padding: 0;
   margin: 0;
   min-height: 100vh;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.header {
+  text-align: center;
+  font-size: 28px;
+  font-style: italic;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 div {
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .newspaper {
-  border: 1px solid black;
   margin: 100px 180px;
+}
+
+.title {
+  text-align: center;
+  font-family: "Snell Roundhand";
+  font-size: 60px;
+  font-weight: normal;
 }
 
 .nav {
@@ -23,9 +42,11 @@ div {
   font-size: 20px;
   font-weight: 600;
   color: #777777;
-  border: 1px solid black;
+  border: 3px solid black;
+  border-bottom: none;
   margin: 0;
   padding: 20px 0;
+  font-family: "Futura";
 }
 
 ul {
@@ -34,31 +55,39 @@ ul {
 
 .row-1 {
   display: flex;
-  padding: 15px 5px;
+  border: 3px solid black;
+  border-bottom: none;
 }
 
 .rw1-item1 {
   flex: 1;
+  padding: 10px 5px;
+  border-right: 3px solid black;
 }
 
 .rw1-item2 {
   flex: 1;
+  padding: 10px 5px;
+  border-right: 3px solid black;
 }
 
 .rw1-item3 {
   flex: 1;
+  padding: 10px 5px;
 }
 
 .row-2 {
   display: flex;
-  border: 1px solid black;
-  padding: 15px 5px;
+  border: 3px solid black;
 }
 
 .rw2-item1 {
   flex: 1;
+  padding: 10px 2px;
+  border-right: 3px solid black;
 }
 
 .rw2-item2 {
-  flex: 1;
+  flex: 2;
+  padding: 10px 5px;
 }
